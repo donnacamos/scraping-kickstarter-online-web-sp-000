@@ -1,6 +1,8 @@
 # require libraries/modules here
 require 'nokogiri'
-require 'pry' 
+require 'pry'
+
+require_relative '/'
 
 def create_project_hash
   html = File.read('fixtures/kickstarter.html')
